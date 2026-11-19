@@ -40,7 +40,7 @@ a {
     text-transform: uppercase;
 }
 
-.site-header nav a:hover,
+
 .site-header nav a:focus-visible {
     color: #e2e58a;
 }
@@ -127,12 +127,10 @@ a {
     margin-top: 18px;
 }
 
-.work-section,
 .skills-section {
     background: #191c17;
 }
 
-.feature-grid,
 .skills-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -147,7 +145,7 @@ a {
 }
 
 .glass-card:hover {
-    border-color: #e2e58a;
+    border-color: #e0e299;
 }
 
 .feature-card {
@@ -159,9 +157,8 @@ a {
     font-size: 1.6rem;
 }
 
-.feature-card p,
 .project-card p {
-    color: #b9bbaf;
+    color: #c7c9bd;
 }
 
 .projects-section {
@@ -173,16 +170,8 @@ a {
     color: #b9bbaf;
 }
 
-.project-list {
-    display: grid;
-    gap: 14px;
-    margin-top: 38px;
-}
-
 .project-card {
     display: grid;
-    grid-template-columns: 55px 1fr;
-    gap: 20px;
 }
 
 .project-number {
